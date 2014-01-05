@@ -1,0 +1,329 @@
+
+#bulk-domain-reg{
+	width:100%;
+	margin:100px 0px 0px;
+	padding:40px 50px 80px;
+	background:#9a2f00;
+	color:#fff;
+	min-height:200px;
+	position:relative;
+	z-index:80;
+}
+
+#bulk-domain-reg h1{
+	font-family:"Lucida Grande",sans-serif;
+	font-size:55px;
+	line-height:64px;
+	background:transparent;
+	color:#fff;
+	text-align:center;
+	display:block;
+	padding: 20px 10px 30px;
+	font-weight: 700;
+	text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+
+#bulk-domain-reg p{
+	font-size:32px;
+	line-height:35px;
+	font-weight:700;
+	text-align:center;
+	display:block;
+	color:#ffc51c;
+	max-width: 680px;
+	float: none;
+	margin: 0px auto;
+	text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+#what-and-why{
+	display:block;
+	margin:0px;
+	padding:60px 40px;
+	overflow:hidden;
+}
+
+#what-and-why h1{
+	font-family:"Lucida Grande",sans-serif;
+	font-size:36px;
+	line-height:42px;
+	background:transparent;
+	color:#353232;
+	text-align:center;
+	display:block;
+	padding: 20px 10px 30px;
+	font-weight: 700;
+	text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+#what-and-why .what{
+	display: block;
+	width: 25%;
+	padding: 25px;
+	margin-bottom: 20px;
+	overflow: hidden;
+	float:left;
+	border-right: 1px solid #ddd;
+	min-height: 200px;
+}
+
+#what-and-why .why{
+	display: block;
+	width: 50%;
+	padding: 25px;
+	margin-bottom: 20px;
+	overflow: hidden;
+	float:left;
+	border-right: 0;
+	min-height: 200px;
+}
+
+#what-and-why .what h2, #what-and-why .why h2{
+	display:block;
+	color:#FF8522;
+	text-align:left;
+	font-family:"Lucida Grande",sans-serif;
+	font-size:36px;
+	line-height:42px;
+	overflow:hidden;
+}
+
+#what-and-why .what span, #what-and-why .why span{
+	display:block;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 20px;
+	margin-bottom:15px;
+	overflow:hidden;
+}
+
+#what-and-why .what ul li, #what-and-why .why ul li{
+	list-style-image: url('../img/check.png');
+	cursor: default;
+	margin-left: 20px;
+	font-size:14px;
+}
+
+#what-and-why .what, #what-and-why .why{
+	font-family:"Lucida Grande",sans-serif;
+	font-size: 30px;
+	line-height: 36px;
+	font-weight: 400;
+	display:block;
+	overflow:hidden;
+	margin-bottom:20px;
+}
+
+#domainlist{
+	display:block;
+	margin:10px 0px;
+	padding: 40px 0px 20px;
+	overflow:hidden;
+	background:transparent;
+}
+
+#domainlist h2{
+	display:block;
+	color:#343434;
+	text-align:center;
+	font-family:"Lucida Grande",sans-serif;
+	font-size:36px;
+	line-height:42px;
+	overflow:hidden;
+	padding:10px 0px;
+	border-bottom:1px solid #eee;
+	margin-bottom:40px;
+}
+
+#domainlist table {
+    border-collapse: separate;
+    border-spacing: 0px;
+    padding: 20px;
+	background: #f5f5f7;
+	border: 2px solid #ddd;
+}
+
+#domainlist .pricing-table thead {
+    background: none repeat scroll 0% 0% #FFF;
+    font-size: 19px;
+    font-weight: bold;
+    color: #393939;
+}
+
+#domainlist .pricing-table thead td {
+	text-align: left;
+    font-weight: normal;
+    padding: 15px;
+}
+
+#domainlist .pricing-table td {
+    text-align: left;
+    font-weight: normal;
+    padding: 15px;
+	border: 1px solid #ddd;
+}
+
+#domainlist .pricing-table tbody .low-price {
+    color: #FF8522;
+    font-weight: bold;
+}
+
+#domainlist .pricing-table td.tld-col{
+    font-size: 16px;
+    font-weight: 700;
+
+}
+
+#finalblock{
+	display:block;
+	padding:20px 40px;
+	font-size:14px;
+	font-weight:400;
+	color:#333;
+	margin-bottom:30px;
+}
+
+#footer .nav {
+	overflow: hidden;
+	background:#fff;
+}
+
+@media screen and (max-width:1024px){
+
+	#bulk-domain-reg{
+		margin:150px 0px 0px;
+	}
+	
+	#what-and-why .what h2, #what-and-why .why h2{
+		font-size: 26px;
+	}
+	
+}
+
+@media screen and (max-width:980px){
+
+	#bulk-domain-reg{
+		margin:150px 0px 0px;
+	}
+
+	#what-and-why .what h2, #what-and-why .why h2{
+		font-size: 24px;
+	}
+
+}
+
+@media screen and (max-width:900px){
+
+	#bulk-domain-reg{
+		margin:100px 0px 0px;
+	}
+	
+}
+
+@media screen and (max-width:800px){
+
+	#bulk-domain-reg h1{
+		font-size:45px;
+		line-height:48px;
+	}
+
+	#what-and-why .what {
+		display: block;
+		width: 50%;
+	}
+	
+	#what-and-why .what:nth-child(2) {
+		border:0px;
+	}
+	
+	#what-and-why .why {
+		display: block;
+		width: 100%;
+	}
+	
+}
+
+@media screen and (max-width:640px){
+
+	#bulk-domain-reg{
+		margin:0px;
+	}
+
+	#what-and-why .what h2, #what-and-why .why h2{
+		font-size: 24px;
+	}
+	
+	#bulk-domain-reg h1 {
+		font-size: 36px;
+		line-height: 36px;
+	}
+
+	#bulk-domain-reg p {
+		font-size: 24px;
+	}
+}
+
+@media screen and (max-width:480px){
+
+	#what-and-why {
+		margin: 0px;
+		padding: 0;
+	}
+
+	#domainlist h1 {
+		font-size: 24px;
+		line-height:32px;
+	}
+	
+	#bulk-domain-reg h1 {
+		font-size: 36px;
+		line-height: 36px;
+	}
+
+	#bulk-domain-reg p {
+		font-size: 24px;
+	}
+}
+
+@media screen and (max-width:360px){
+
+	#domainlist table {
+		padding:2px;
+		border:1px solid #ddd;
+	}
+
+	
+	#domainlist .pricing-table thead td,#domainlist .pricing-table thead td.td-col {
+		font-size: 12px;
+	}
+
+	#bulk-domain-reg {
+		margin: 0px;
+		padding: 10px;
+	}
+	
+	#bulk-domain-reg h1 {
+		font-size: 30px;
+		line-height: 30px;
+	}
+
+	#bulk-domain-reg p {
+		font-size: 18px;
+	}
+
+	#bulk-domain-reg h1 {
+		font-size: 36px;
+		line-height: 36px;
+	}
+
+	#bulk-domain-reg p {
+		font-size: 24px;
+	}
+}
+
+
+@media screen and (max-width:360px){
+
+
+}

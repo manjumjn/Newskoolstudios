@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'Capricorn OSF';
+    src: url('capricornosf.eot');
+    src: url('capricornosf.eot') format('embedded-opentype'),
+         url('capricornosf.woff') format('woff'),
+         url('capricornosf.ttf') format('truetype'),
+         url('capricornosf.svg#Capricorn OSF') format('svg');
+}

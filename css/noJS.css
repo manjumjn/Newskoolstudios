@@ -1,0 +1,12 @@
+
+
+#domain-search  .domain-search-box-select:focus .dropdown {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+
+#domain-search  .domain-search-box-select:focus:after {
+    border-width: 0 6px 6px 6px;
+}
+

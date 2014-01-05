@@ -1,0 +1,536 @@
+
+#domain-reg{
+	width:100%;
+	margin:100px 0px 0px;
+	padding:40px 50px 80px;
+	background:#9a2f00;
+	color:#fff;
+	min-height:200px;
+	position:relative;
+	z-index:80;
+}
+
+#domain-reg h1{
+	font-family:"Lucida Grande",sans-serif;
+	font-size:55px;
+	line-height:64px;
+	background:transparent;
+	color:#fff;
+	text-align:center;
+	display:block;
+	padding: 20px 10px 30px;
+	font-weight: 700;
+	text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+
+#domain-reg p{
+	font-size:32px;
+	line-height:35px;
+	font-weight:700;
+	text-align:center;
+	display:block;
+	color:#ffc51c;
+	max-width: 680px;
+	float: none;
+	margin: 0px auto;
+	text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+#domain-reg button{
+	display: block;
+	border:0px;
+	background: #fa7109;
+	padding: 25px 70px;
+	font-size: 32px;
+	color: #fff;
+	font-weight: 700;
+	border-bottom: 4px solid #d76006;
+	box-shadow: 0px 2px 5px rgba(0,0,0,.2);
+	margin: 40px auto 0px;
+	text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+#domain-reg button:hover{
+	border-bottom: 5px solid #d76006;
+	margin: 39px auto 0px;
+}
+
+#domain-reg button:active{
+	border-bottom: 0px;
+	margin: 42px auto 2px;
+}
+
+#domain-names{
+	display:block;
+	margin:0px;
+	padding:60px 40px;
+	overflow:hidden;
+}
+
+#domain-names h1{
+	font-family:"Lucida Grande",sans-serif;
+	font-size:36px;
+	line-height:42px;
+	background:transparent;
+	color:#353232;
+	text-align:center;
+	display:block;
+	padding: 20px 10px 30px;
+	font-weight: 700;
+	text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+#domain-names textarea {
+    overflow: auto;
+    vertical-align: top;
+    width: 100%;
+    height: 200px;
+    border: 2px solid #ddd;
+    padding: 20px;
+    font-size: 16px;
+    color: #454545;
+	margin-bottom: 30px;
+}
+
+#domain-names .popular-extensions, #domain-names .more-extensions, #domain-names .extension-block{
+	display: block;
+	width: 33.33%;
+	padding: 25px;
+	margin-bottom: 20px;
+	overflow: hidden;
+	float:left;
+	border-right: 1px solid #ddd;
+	min-height: 200px;
+}
+
+#domain-names .more-extensions{
+	border:0px;
+}
+
+#domain-names .extension-block{
+	display:block;
+	color:#313131;
+}
+
+#domain-names .extension-block h2, #domain-names .popular-extensions .section-title, #domain-names .more-extensions .section-title{
+	display:block;
+	color:#FF8522;
+	text-align:left;
+	font-family:"Lucida Grande",sans-serif;
+	font-size:36px;
+	line-height:42px;
+	overflow:hidden;
+}
+
+#domain-names .extension-block span{
+	display:block;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 20px;
+	margin-bottom:15px;
+	overflow:hidden;
+}
+
+#domain-names .extension-block ul li{
+	list-style-image: url('../img/check.png');
+	cursor: default;
+	margin-left: 20px;
+	font-size:14px;
+}
+
+#domain-names .popular-extensions .section-title, #domain-names .more-extensions .section-title{
+	font-family:"Lucida Grande",sans-serif;
+	font-size: 30px;
+	line-height: 36px;
+	font-weight: 400;
+	display:block;
+	overflow:hidden;
+	margin-bottom:20px;
+}
+
+#domain-names .popular-extensions td, #domain-names .more-extensions td{
+	width: 32%;
+	display: inline-block;
+	margin:3px 0px;
+	padding:2px;
+}
+
+#domain-names .popular-extensions label, #domain-names .more-extensions label{
+	margin-left:4px;
+}
+
+#domain-names .popular-extensions table, #domain-names .popular-extensions tbody, #domain-names .popular-extensions tr,
+#domain-names .more-extensions table, #domain-names .more-extensions tbody, #domain-names .more-extensions tr{
+	width:100%;
+}
+
+#domain-names .selectall{
+	display:block;
+	overflow:hidden;
+	padding:2px;
+}
+
+#domain-reg-button{
+	width: 100%;
+	display: block;
+	overflow: hidden;
+	padding: 30px 5px;
+}
+
+#domain-reg-button button{
+	display: block;
+	border:0px;
+	background: #fa7109;
+	padding: 20px 30px;
+	font-size: 28px;
+	color: #fff;
+	font-weight: 700;
+	border-bottom: 7px solid #d76006;
+	box-shadow: 0px 2px 5px rgba(0,0,0,.2);
+	margin: 1px auto 0px;
+	text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5);
+	width:100%;
+}
+
+#domain-reg-button button:hover{
+	border-bottom: 8px solid #d76006;
+	margin: 0px auto 0px;
+}
+
+#domain-reg-button button:active{
+	border-bottom: 0px;
+	margin: 5px auto 3px;
+	box-shadow: inset 0px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+#domain-names  #nameslist{
+	display:block;
+	margin:10px 0px;
+	padding:0px;
+	overflow:hidden;
+	background:transparent;
+	border: 2px solid #ddd;
+}
+
+#domain-names  #nameslist h2{
+	display:block;
+	color:#343434;
+	text-align:center;
+	font-family:"Lucida Grande",sans-serif;
+	font-size:36px;
+	line-height:42px;
+	overflow:hidden;
+	padding:10px 0px;
+	border-bottom:2px solid #ddd;
+}
+
+
+#domain-names  #nameslist ul{
+	list-style:none;
+	display:block;
+	width:auto;
+	float:left;
+	padding:40px 20px;
+}
+
+#domain-names  #nameslist ul li{
+	list-style:none;
+	display:inline-block;
+	width:auto;
+	float:left;
+	margin:0px 20px;
+}
+	
+#domain-names  #nameslist ul li a{
+	display:block;
+	background:#fa7109;
+	color:#fff;
+	font-size: 26px;
+	padding: 12px 20px;
+	border-radius:3px;
+	font-family:"Lucida Grande",sans-serif;
+	text-align: center;
+} 
+
+#domain-names  #nameslist ul li span#small{
+	display:block;
+	color:#343434;
+	font-size: 18px;
+	line-height: 22px;
+	padding: 0px 0px 10px;
+	text-align:center;
+	text-decoration: line-through;
+	cursor:default;
+	font-family:"Lucida Grande",sans-serif;
+} 
+
+#domain-names  #nameslist ul li span#big{
+	font-family:"Lucida Grande",sans-serif;
+	display:block;
+	color: #7b3806;
+	font-size: 32px;
+	line-height:36px;
+	padding: 10px 0px;
+	font-weight:700;
+	text-align:center;
+	cursor:default;
+} 
+
+#footer .nav {
+	overflow: hidden;
+	background:#fff;
+}
+
+@media screen and (max-width:1024px){
+
+	#domain-reg{
+		margin:160px 0px 0px;
+	}
+	
+	#domain-names .popular-extensions .section-title, #domain-names .more-extensions .section-title{
+		font-size: 26px;
+	}
+		
+	#domain-names  #nameslist ul li a{
+		font-size: 22px;
+		padding: 12px 14px;
+	}
+	
+}
+
+@media screen and (max-width:980px){
+
+	#domain-reg{
+		margin:160px 0px 0px;
+	}
+
+	#domain-names .popular-extensions .section-title, #domain-names .more-extensions .section-title{
+		font-size: 24px;
+	}
+
+	#domain-names  #nameslist ul li {
+		margin-bottom:20px;
+	} 
+	
+	#domain-names  #nameslist ul li a{
+		display:block;
+		background:#fa7109;
+		color:#fff;
+		font-size: 18px;
+		padding: 8px 10px;
+		border-radius:3px;
+		font-family:"Lucida Grande",sans-serif;
+		text-align: center;
+	} 
+
+	#domain-names  #nameslist ul li span#big{
+		font-family:"Lucida Grande",sans-serif;
+		display:block;
+		color: #7b3806;
+		font-size: 28px;
+		line-height:36px;
+		padding: 10px 0px;
+		font-weight:700;
+		text-align:center;
+		cursor:default;
+	} 
+
+}
+
+@media screen and (max-width:900px){
+
+	#domain-reg{
+		margin:100px 0px 0px;
+	}
+	
+}
+
+@media screen and (max-width:800px){
+
+	#domain-reg h1{
+		font-size:45px;
+		line-height:48px;
+	}
+
+	#domain-names .popular-extensions td, #domain-names .more-extensions td {
+		width: 45%;
+	}
+	
+}
+
+@media screen and (max-width:640px){
+
+	#domain-reg{
+		margin:0px;
+	}
+
+	#domain-names .popular-extensions .section-title, #domain-names .more-extensions .section-title{
+		font-size: 24px;
+	}
+
+	#domain-names  #nameslist ul li {
+		margin-bottom:20px;
+	} 
+	
+	#domain-names  #nameslist ul li a{
+		display:block;
+		background:#fa7109;
+		color:#fff;
+		font-size: 18px;
+		padding: 8px 10px;
+		border-radius:3px;
+		font-family:"Lucida Grande",sans-serif;
+		text-align: center;
+	} 
+
+	#domain-names  #nameslist ul li span#big{
+		font-family:"Lucida Grande",sans-serif;
+		display:block;
+		color: #7b3806;
+		font-size: 28px;
+		line-height:36px;
+		padding: 10px 0px;
+		font-weight:700;
+		text-align:center;
+		cursor:default;
+	} 
+	
+	#domain-names #nameslist ul {
+		width: 450px;
+		float: none;
+		padding: 40px 20px;
+		overflow: hidden;
+		margin: 0px auto;
+	}
+	
+	#domain-reg h1 {
+		font-size: 36px;
+		line-height: 36px;
+	}
+
+	#domain-reg p {
+		font-size: 24px;
+	}
+}
+
+@media screen and (max-width:480px){
+
+	#domain-names {
+		padding: 20px 20px 40px;
+		overflow: hidden;
+	}
+
+	#domain-names h1 {
+		font-size: 24px;
+		line-height:32px;
+	}
+	
+	#domain-names .popular-extensions, #domain-names .more-extensions{
+		width: 50%;
+		border:0px;
+		padding: 0px 10px 0px;
+		border-top:1px solid #ddd;
+		margin:0px;
+	}
+	
+	#domain-names .extension-block {
+		width: 100%;
+		border:0px;
+		padding: 0px 10px 0px;
+		border-top:0px;
+		margin:0px;
+	}
+	
+	#domain-names .popular-extensions{
+		border-right:1px solid #ddd;
+	}
+	
+	#domain-names .popular-extensions .section-title, #domain-names .more-extensions .section-title{
+		font-size: 20px;
+		margin-top: 10px;
+	}
+	
+	#domain-reg-button button {
+			font-size: 22px;
+	}
+
+	#domain-names #nameslist ul {
+		width: 100%;
+		padding: 40px 0px;
+	}
+	
+	#domain-reg h1 {
+		font-size: 36px;
+		line-height: 36px;
+	}
+
+	#domain-reg p {
+		font-size: 24px;
+	}
+}
+
+@media screen and (max-width:360px){
+
+	#domain-reg {
+		margin: 0px;
+		padding: 10px;
+	}
+	
+	#domain-reg h1 {
+		font-size: 30px;
+		line-height: 30px;
+	}
+
+	#domain-reg p {
+		font-size: 18px;
+	}
+	
+	#domain-reg-button button {
+		font-size: 18px;
+		padding:10px 15px;
+	}
+
+	#domain-names #nameslist ul {
+		width: 100%;
+		padding: 40px 0px;
+	}
+	
+	#domain-reg h1 {
+		font-size: 36px;
+		line-height: 36px;
+	}
+
+	#domain-reg p {
+		font-size: 24px;
+	}
+}
+
+
+@media screen and (max-width:360px){
+
+	#domain-names #nameslist ul {
+		width: 200px;
+		padding: 40px 0px;
+	}
+
+	#domain-names #nameslist h2 {
+		font-size:30px;
+	}
+
+	#nameslist ul li {
+		margin: 0px 10px;
+	}
+	
+	#domain-names #nameslist ul li a {
+		font-size: 16px;
+	}
+
+	#domain-names #nameslist ul li span#big {
+		font-size: 24px;
+	}
+	
+	#domain-names #nameslist ul li span#small {
+		font-size: 14px
+	}
+}
